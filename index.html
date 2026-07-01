@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pivot Project | Funder Introduction</title>
+  <meta name="description" content="Pivot Project is a Singapore-based nonprofit helping people find their pivot in the AI era through workforce readiness, AI fluency, and inclusive pathways." />
+  <style>
+    :root {
+      --bg: #172114;
+      --panel: #22301b;
+      --panel2: #10170d;
+      --lime: #dfff00;
+      --text: #f5f6ef;
+      --muted: #bdc5b0;
+      --line: rgba(223,255,0,.24);
+      --whiteLine: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at 70% 10%, rgba(223,255,0,.09), transparent 28%), var(--bg);
+      color: var(--text);
+    }
+    a { color: inherit; }
+    .wrap {
+      min-height: 100vh;
+      padding: 42px clamp(22px, 5vw, 78px);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 62px;
+    }
+    .eyebrow {
+      color: var(--lime);
+      font-weight: 800;
+      letter-spacing: .32em;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    .logo {
+      width: 58px;
+      height: 58px;
+      background: var(--lime);
+      color: #0b0d08;
+      font-size: 31px;
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+      letter-spacing: -0.08em;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: clamp(32px, 5vw, 72px);
+      align-items: center;
+    }
+    h1 {
+      margin: 0;
+      max-width: 850px;
+      font-size: clamp(46px, 7vw, 92px);
+      line-height: .96;
+      letter-spacing: -.055em;
+      font-weight: 900;
+    }
+    .rule {
+      margin: 30px 0 26px;
+      width: 220px;
+      height: 7px;
+      background: var(--lime);
+    }
+    .lead {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: clamp(18px, 2.1vw, 24px);
+      line-height: 1.42;
+      margin: 0 0 34px;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+      border: 1px solid var(--line);
+    }
+    .primary {
+      background: var(--lime);
+      color: #111607;
+      border-color: var(--lime);
+    }
+    .secondary {
+      background: transparent;
+      color: var(--text);
+    }
+    .card {
+      background: rgba(34,48,27,.78);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: clamp(22px, 3vw, 34px);
+      box-shadow: 0 24px 70px rgba(0,0,0,.25);
+    }
+    .card h2 {
+      margin: 0 0 18px;
+      color: var(--lime);
+      font-size: 18px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+    .item {
+      padding: 18px 18px;
+      border: 1px solid var(--whiteLine);
+      background: rgba(0,0,0,.12);
+      border-radius: 16px;
+    }
+    .item strong {
+      display: block;
+      font-size: 19px;
+      margin-bottom: 7px;
+    }
+    .item span {
+      color: var(--muted);
+      line-height: 1.42;
+      font-size: 15px;
+    }
+    .embed {
+      margin-top: 54px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      overflow: hidden;
+      background: var(--panel2);
+    }
+    .embedTop {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--whiteLine);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    iframe {
+      width: 100%;
+      height: min(72vh, 760px);
+      border: 0;
+      display: block;
+      background: #111;
+    }
+    footer {
+      margin-top: 38px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      color: rgba(245,246,239,.58);
+      font-size: 14px;
+    }
+    footer a { text-decoration: none; color: var(--muted); }
+    @media (max-width: 900px) {
+      header { margin-bottom: 38px; }
+      main { grid-template-columns: 1fr; }
+      .logo { width: 48px; height: 48px; font-size: 27px; }
+      iframe { height: 62vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Funder Introduction</div>
+      <div class="logo" aria-label="Pivot Project logo">P/</div>
+    </header>
+
+    <main>
+      <section>
+        <h1>Helping people find their pivot in the AI era.</h1>
+        <div class="rule"></div>
+        <p class="lead">Pivot Project is a Singapore-based nonprofit working at the intersection of workforce readiness, AI fluency, and digital inclusion across Asia Pacific.</p>
+        <div class="buttons">
+          <a class="btn primary" href="deck.html">View intro deck</a>
+          <a class="btn secondary" href="Pivot_Project_Open_Intro_Deck_Revised.pdf">Download PDF</a>
+          <a class="btn secondary" href="mailto:hello@pivot-project.org">Contact us</a>
+        </div>
+      </section>
+
+      <aside class="card" aria-label="What Pivot Project does">
+        <h2>What we build</h2>
+        <div class="grid">
+          <div class="item"><strong>Direction before skills</strong><span>Career clarity, strengths mapping, and guided pathways before training begins.</span></div>
+          <div class="item"><strong>Skills to real opportunity</strong><span>AI fluency, credentials, mentoring, applied work, and employer-connected pathways.</span></div>
+          <div class="item"><strong>Evidence back into the system</strong><span>Cohort insights inform employers, funders, educators, and policy stakeholders.</span></div>
+        </div>
+      </aside>
+    </main>
+
+    <section class="embed" aria-label="Embedded Pivot Project intro deck">
+      <div class="embedTop">
+        <span>Pivot Project Open Intro Deck</span>
+        <a href="deck.html">Open full screen</a>
+      </div>
+      <iframe src="deck.html" title="Pivot Project Open Intro Deck"></iframe>
+    </section>
+
+    <footer>
+      <span>Pivot Project · Find your pivot</span>
+      <span><a href="https://findyourpivot.org">findyourpivot.org</a> · <a href="mailto:hello@pivot-project.org">hello@pivot-project.org</a></span>
+    </footer>
+  </div>
+</body>
+</html>
